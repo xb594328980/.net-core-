@@ -1,0 +1,17 @@
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.OrderManage\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.OrderManage.csprojAssemblyReference.cache
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.OrderManage\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.OrderManage.csproj.CoreCompileInputs.cache
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.OrderManage\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.OrderManage.RazorAssemblyInfo.cache
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.OrderManage\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.OrderManage.RazorAssemblyInfo.cs
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.OrderManage\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.OrderManage.AssemblyInfoInputs.cache
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.OrderManage\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.OrderManage.AssemblyInfo.cs
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.OrderManage\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.OrderManage.deps.json
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.OrderManage\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.OrderManage.runtimeconfig.json
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.OrderManage\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.OrderManage.runtimeconfig.dev.json
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.OrderManage\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.OrderManage.dll
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.OrderManage\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.OrderManage.pdb
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.OrderManage\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Extensions.dll
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.OrderManage\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Extensions.pdb
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.OrderManage\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.OrderManage.RazorTargetAssemblyInfo.cache
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.OrderManage\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.OrderManage.csproj.CopyComplete
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.OrderManage\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.OrderManage.dll
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.OrderManage\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.OrderManage.pdb

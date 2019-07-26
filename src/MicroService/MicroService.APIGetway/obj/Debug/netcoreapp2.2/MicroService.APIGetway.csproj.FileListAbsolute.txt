@@ -1,0 +1,15 @@
+E:\微服务\src\MicroService\MicroService.APIGetway\bin\Debug\netcoreapp2.2\ocelot.json
+E:\微服务\src\MicroService\MicroService.APIGetway\bin\Debug\netcoreapp2.2\MicroService.APIGetway.deps.json
+E:\微服务\src\MicroService\MicroService.APIGetway\bin\Debug\netcoreapp2.2\MicroService.APIGetway.runtimeconfig.json
+E:\微服务\src\MicroService\MicroService.APIGetway\bin\Debug\netcoreapp2.2\MicroService.APIGetway.runtimeconfig.dev.json
+E:\微服务\src\MicroService\MicroService.APIGetway\bin\Debug\netcoreapp2.2\MicroService.APIGetway.dll
+E:\微服务\src\MicroService\MicroService.APIGetway\obj\Debug\netcoreapp2.2\MicroService.APIGetway.csprojAssemblyReference.cache
+E:\微服务\src\MicroService\MicroService.APIGetway\obj\Debug\netcoreapp2.2\MicroService.APIGetway.csproj.CoreCompileInputs.cache
+E:\微服务\src\MicroService\MicroService.APIGetway\obj\Debug\netcoreapp2.2\MicroService.APIGetway.RazorAssemblyInfo.cache
+E:\微服务\src\MicroService\MicroService.APIGetway\obj\Debug\netcoreapp2.2\MicroService.APIGetway.RazorAssemblyInfo.cs
+E:\微服务\src\MicroService\MicroService.APIGetway\obj\Debug\netcoreapp2.2\MicroService.APIGetway.AssemblyInfoInputs.cache
+E:\微服务\src\MicroService\MicroService.APIGetway\obj\Debug\netcoreapp2.2\MicroService.APIGetway.AssemblyInfo.cs
+E:\微服务\src\MicroService\MicroService.APIGetway\obj\Debug\netcoreapp2.2\MicroService.APIGetway.RazorTargetAssemblyInfo.cache
+E:\微服务\src\MicroService\MicroService.APIGetway\bin\Debug\netcoreapp2.2\MicroService.APIGetway.pdb
+E:\微服务\src\MicroService\MicroService.APIGetway\obj\Debug\netcoreapp2.2\MicroService.APIGetway.dll
+E:\微服务\src\MicroService\MicroService.APIGetway\obj\Debug\netcoreapp2.2\MicroService.APIGetway.pdb

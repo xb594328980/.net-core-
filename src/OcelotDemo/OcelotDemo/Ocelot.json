@@ -1,0 +1,214 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/ocelot/{postId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8001
+        },
+        {
+          "Host": "localhost",
+          "Port": 8002
+        }
+      ],
+      "UpstreamPathTemplate": "/ocelot/{postId}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/ocelot/aggrWilling",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8001
+        }
+      ],
+      "UpstreamPathTemplate": "/ocelot/aggrWilling",
+      "UpstreamHttpMethod": [ "Get" ],
+      "Key": "aggr_willing",
+      "Priority": 2
+    },
+    {
+      "DownstreamPathTemplate": "/api/ocelot/aggrJack",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8001
+        }
+      ],
+      "UpstreamPathTemplate": "/ocelot/aggrJack",
+      "UpstreamHttpMethod": [ "Get" ],
+      "Key": "aggr_jack",
+      "Priority": 2
+    },
+    {
+      "DownstreamPathTemplate": "/api/ocelot/aggrError/1",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8001
+        }
+      ],
+      "UpstreamPathTemplate": "/ocelot/aggrError/1",
+      "UpstreamHttpMethod": [ "Get" ],
+      "Key": "aggr_error",
+      "Priority": 2
+    },
+    {
+      "DownstreamPathTemplate": "/api/ocelot/consulWilling",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/ocelot/consulWilling",
+      "UpstreamHttpMethod": [ "Get" ],
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      "ServiceName": "ocelotService",
+      "Priority": 2
+    },
+
+    {
+      "DownstreamPathTemplate": "/connect/token",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8005
+        }
+      ],
+      "UpstreamPathTemplate": "/token",
+      "UpstreamHttpMethod": [ "Post" ],
+      "Priority": 2
+    },
+    {
+      "DownstreamPathTemplate": "/api/ocelot/identityWilling",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8001
+        }
+      ],
+      "UpstreamPathTemplate": "/ocelot/identityWilling",
+      "UpstreamHttpMethod": [ "Get" ],
+      "Priority": 2
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/ocelot/identityWilling",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8001
+        }
+      ],
+      "UpstreamPathTemplate": "/ocelot/8001/identityWilling",
+      "UpstreamHttpMethod": [ "Get" ],
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "APIService8001",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/ocelot/identityWilling",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8002
+        }
+      ],
+      "UpstreamPathTemplate": "/ocelot/8002/identityWilling",
+      "UpstreamHttpMethod": [ "Get" ],
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "APIService8002",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/ocelot/{postId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8001
+        }
+      ],
+      "UpstreamPathTemplate": "/ocelot/ratelimit/{postId}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "Priority": 2,
+      "RateLimitOptions": {
+        "ClientWhiteList": [
+          "markadmin"
+        ],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "PeriodTimespan": 30,
+        "Limit": 5
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/ocelot/{postId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8001
+        }
+      ],
+      "UpstreamPathTemplate": "/ocelot/qos/{postId}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "Priority": 2,
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3,
+        "DurationOfBreak": 3000,
+        "TimeoutValue": 5000
+      }
+    }
+  ],
+  "Aggregates": [
+    {
+      "ReRouteKeys": [
+        "aggr_willing",
+        "aggr_jack",
+        "aggr_error"
+      ],
+      "UpstreamPathTemplate": "/aggrLeader"
+    },
+    {
+      "ReRouteKeys": [
+        "aggr_willing",
+        "aggr_jack",
+        "aggr_error"
+      ],
+      "UpstreamPathTemplate": "/aggrLeaderAdvanced",
+      "Aggregator": "LeaderAdvancedAggregator"
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:4727",
+    "ServiceDiscoveryProvider": {
+      "Host": "localhost",
+      "Port": 8500,
+      "Type": "Consul"
+    },
+    "RateLimitOptions": {
+      "DisableRateLimitHeaders": true,
+      "QuotaExceededMessage": "Customize Tips!",
+      "HttpStatusCode": 999,
+      "ClientIdHeader": "Test"
+    }
+  }
+}

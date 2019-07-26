@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroService.APIGetway", "MicroService.APIGetway\MicroService.APIGetway.csproj", "{D71B7231-4619-4F7F-A833-143A2DB29E36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroService.IdentityServer.Host", "MicroService.IdentityServer.Host\MicroService.IdentityServer.Host.csproj", "{6E78021D-FE76-457F-9B91-64885C7AC677}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D71B7231-4619-4F7F-A833-143A2DB29E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71B7231-4619-4F7F-A833-143A2DB29E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71B7231-4619-4F7F-A833-143A2DB29E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71B7231-4619-4F7F-A833-143A2DB29E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E78021D-FE76-457F-9B91-64885C7AC677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E78021D-FE76-457F-9B91-64885C7AC677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E78021D-FE76-457F-9B91-64885C7AC677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E78021D-FE76-457F-9B91-64885C7AC677}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBD5630D-8843-4660-80DD-FF65A798A62C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Domain\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Domain.deps.json
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Domain\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Domain.dll
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Domain\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Domain.pdb
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Domain\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Domain.csprojAssemblyReference.cache
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Domain\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Domain.csproj.CoreCompileInputs.cache
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Domain\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Domain.AssemblyInfoInputs.cache
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Domain\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Domain.AssemblyInfo.cs
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Domain\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Domain.dll
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Domain\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Domain.pdb

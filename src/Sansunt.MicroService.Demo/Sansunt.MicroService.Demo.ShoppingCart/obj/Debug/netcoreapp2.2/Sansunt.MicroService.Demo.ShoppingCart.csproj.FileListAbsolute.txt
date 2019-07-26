@@ -1,0 +1,17 @@
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ShoppingCart\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ShoppingCart.csprojAssemblyReference.cache
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ShoppingCart\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ShoppingCart.csproj.CoreCompileInputs.cache
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ShoppingCart\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ShoppingCart.RazorAssemblyInfo.cache
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ShoppingCart\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ShoppingCart.RazorAssemblyInfo.cs
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ShoppingCart\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ShoppingCart.AssemblyInfoInputs.cache
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ShoppingCart\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ShoppingCart.AssemblyInfo.cs
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ShoppingCart\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ShoppingCart.deps.json
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ShoppingCart\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ShoppingCart.runtimeconfig.json
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ShoppingCart\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ShoppingCart.runtimeconfig.dev.json
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ShoppingCart\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ShoppingCart.dll
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ShoppingCart\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ShoppingCart.pdb
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ShoppingCart\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Extensions.dll
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ShoppingCart\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Extensions.pdb
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ShoppingCart\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ShoppingCart.RazorTargetAssemblyInfo.cache
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ShoppingCart\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ShoppingCart.csproj.CopyComplete
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ShoppingCart\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ShoppingCart.dll
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ShoppingCart\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ShoppingCart.pdb

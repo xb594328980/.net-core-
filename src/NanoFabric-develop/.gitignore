@@ -1,0 +1,124 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+/sample/SampleService.Client/obj
+/sample/SampleService.Client/bin
+/sample/SampleService.IdentityServer/bin
+/sample/SampleService.IdentityServer/obj
+/sample/SampleService.Kestrel/bin
+/sample/SampleService.Kestrel/obj
+/src/CFT.NanoFabric.AspNetCore/bin
+/src/CFT.NanoFabric.AspNetCore/obj
+/src/CFT.NanoFabric.Core/bin
+/src/CFT.NanoFabric.Core/obj
+/src/CFT.NanoFabric.Fabio/bin
+/src/CFT.NanoFabric.Fabio/obj
+/src/CFT.NanoFabric.Fabio
+/src/CFT.NanoFabric.IdentityServer/bin
+/src/CFT.NanoFabric.IdentityServer/obj
+/src/CFT.NanoFabric.Ocelot/bin
+/src/CFT.NanoFabric.Ocelot/obj
+/src/CFT.NanoFabric.RegistryHost.ConsulRegistry/bin
+/src/CFT.NanoFabric.RegistryHost.ConsulRegistry/obj
+/src/CFT.NanoFabric.Router/bin
+/src/CFT.NanoFabric.Router/obj
+/test/CFT.NanoFabric.AspNetCore.Tests/bin
+/test/CFT.NanoFabric.AspNetCore.Tests/obj
+/test/CFT.NanoFabric.RegistryHost.ConsulRegistry.Test/bin
+/test/CFT.NanoFabric.RegistryHost.ConsulRegistry.Test/obj
+/test/CFT.NanoFabric.Router.Tests/bin
+/test/CFT.NanoFabric.Router.Tests/obj
+/test/CFT.NanoFabric.Router.Tests/obj
+/test/CFT.NanoFabric.Router.Tests/bin
+/sample/SampleService.Client/bin
+/sample/SampleService.Client/obj
+/sample/SampleService.IdentityServer/bin
+/sample/SampleService.IdentityServer/obj
+/sample/SampleService.Kestrel/bin
+/sample/SampleService.Kestrel/obj
+/src/CFT.NanoFabric.AspNetCore/bin
+/src/CFT.NanoFabric.AspNetCore/obj
+/src/CFT.NanoFabric.Core/bin
+/src/CFT.NanoFabric.Core/obj
+/src/CFT.NanoFabric.Domain/bin
+/src/CFT.NanoFabric.Domain/obj
+/src/CFT.NanoFabric.IdentityServer/bin
+/src/CFT.NanoFabric.IdentityServer/obj
+/src/CFT.NanoFabric.Ocelot/bin
+/src/CFT.NanoFabric.Ocelot/obj
+/src/CFT.NanoFabric.RegistryHost.ConsulRegistry/bin
+/src/CFT.NanoFabric.RegistryHost.ConsulRegistry/obj
+/src/CFT.NanoFabric.Router/bin
+/src/CFT.NanoFabric.Router/obj
+/.vs
+/sample/SampleService.MvcClient/obj/Debug/netcoreapp1.0
+/sample/SampleService.MvcClient/obj/SampleService.MvcClient.csproj.nuget.g.targets
+/sample/SampleService.MvcClient/obj/SampleService.MvcClient.csproj.nuget.g.props
+/sample/SampleService.MvcClient/obj
+/sample/SampleService.MvcClient/obj/project.assets.json
+/sample/SampleService.MvcClient/obj
+/src/CFT.NanoFabric.Ocelot/CFT.NanoFabric.Ocelot.csproj.user
+/src/CFT.NanoFabric.Ocelot/CFT.NanoFabric.Ocelot.csproj.user
+/test/NanoFabric.Router.Tests/obj
+/test/NanoFabric.Router.Tests/obj
+/test/NanoFabric.Router.Tests/bin/Debug/netcoreapp1.0
+/test/NanoFabric.RegistryHost.ConsulRegistry.Test/obj/Release/netcoreapp1.0
+/test/NanoFabric.RegistryHost.ConsulRegistry.Test/obj/x64
+/test/NanoFabric.RegistryHost.ConsulRegistry.Test/obj/x86
+/test/NanoFabric.RegistryHost.ConsulRegistry.Test/obj/NanoFabric.RegistryHost.ConsulRegistry.Tests.csproj.nuget.g.targets
+/test/NanoFabric.RegistryHost.ConsulRegistry.Test/obj/NanoFabric.RegistryHost.ConsulRegistry.Tests.csproj.nuget.g.props
+/test/NanoFabric.RegistryHost.ConsulRegistry.Test/obj/CFT.NanoFabric.RegistryHost.ConsulRegistry.Tests.csproj.nuget.g.targets
+/test/NanoFabric.RegistryHost.ConsulRegistry.Test/obj/CFT.NanoFabric.RegistryHost.ConsulRegistry.Tests.csproj.nuget.g.props
+/test/NanoFabric.RegistryHost.ConsulRegistry.Test/obj/CFT.NanoFabric.RegistryHost.ConsulRegistry.Test.csproj.nuget.g.targets
+/test/NanoFabric.RegistryHost.ConsulRegistry.Test/obj/CFT.NanoFabric.RegistryHost.ConsulRegistry.Test.csproj.nuget.g.props
+/test/NanoFabric.RegistryHost.ConsulRegistry.Test/obj/project.assets.json
+bin
+obj
+/sample/SampleService.MvcClient/obj
+/src/NanoFabric.Ocelot/Properties/PublishProfiles
+src/NanoFabric.Ocelot/httplocalhost5000.db
+/sample/SampleService.IdentityServer/Properties/PublishProfiles

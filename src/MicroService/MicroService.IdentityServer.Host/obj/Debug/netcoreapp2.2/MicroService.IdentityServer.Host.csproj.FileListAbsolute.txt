@@ -1,0 +1,13 @@
+E:\微服务\src\MicroService\MicroService.IdentityServer.Host\bin\Debug\netcoreapp2.2\MicroService.IdentityServer.Host.deps.json
+E:\微服务\src\MicroService\MicroService.IdentityServer.Host\bin\Debug\netcoreapp2.2\MicroService.IdentityServer.Host.runtimeconfig.json
+E:\微服务\src\MicroService\MicroService.IdentityServer.Host\bin\Debug\netcoreapp2.2\MicroService.IdentityServer.Host.runtimeconfig.dev.json
+E:\微服务\src\MicroService\MicroService.IdentityServer.Host\bin\Debug\netcoreapp2.2\MicroService.IdentityServer.Host.dll
+E:\微服务\src\MicroService\MicroService.IdentityServer.Host\bin\Debug\netcoreapp2.2\MicroService.IdentityServer.Host.pdb
+E:\微服务\src\MicroService\MicroService.IdentityServer.Host\obj\Debug\netcoreapp2.2\MicroService.IdentityServer.Host.csproj.CoreCompileInputs.cache
+E:\微服务\src\MicroService\MicroService.IdentityServer.Host\obj\Debug\netcoreapp2.2\MicroService.IdentityServer.Host.RazorAssemblyInfo.cache
+E:\微服务\src\MicroService\MicroService.IdentityServer.Host\obj\Debug\netcoreapp2.2\MicroService.IdentityServer.Host.RazorAssemblyInfo.cs
+E:\微服务\src\MicroService\MicroService.IdentityServer.Host\obj\Debug\netcoreapp2.2\MicroService.IdentityServer.Host.AssemblyInfoInputs.cache
+E:\微服务\src\MicroService\MicroService.IdentityServer.Host\obj\Debug\netcoreapp2.2\MicroService.IdentityServer.Host.AssemblyInfo.cs
+E:\微服务\src\MicroService\MicroService.IdentityServer.Host\obj\Debug\netcoreapp2.2\MicroService.IdentityServer.Host.RazorTargetAssemblyInfo.cache
+E:\微服务\src\MicroService\MicroService.IdentityServer.Host\obj\Debug\netcoreapp2.2\MicroService.IdentityServer.Host.dll
+E:\微服务\src\MicroService\MicroService.IdentityServer.Host\obj\Debug\netcoreapp2.2\MicroService.IdentityServer.Host.pdb

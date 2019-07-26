@@ -1,0 +1,9 @@
+E:\HiCard\Sansunt.HiCard\Sansunt.Domain.Core\bin\Release\netstandard2.0\Sansunt.Domain.Core.deps.json
+E:\HiCard\Sansunt.HiCard\Sansunt.Domain.Core\bin\Release\netstandard2.0\Sansunt.Domain.Core.dll
+E:\HiCard\Sansunt.HiCard\Sansunt.Domain.Core\bin\Release\netstandard2.0\Sansunt.Domain.Core.pdb
+E:\HiCard\Sansunt.HiCard\Sansunt.Domain.Core\obj\Release\netstandard2.0\Sansunt.Domain.Core.csprojAssemblyReference.cache
+E:\HiCard\Sansunt.HiCard\Sansunt.Domain.Core\obj\Release\netstandard2.0\Sansunt.Domain.Core.csproj.CoreCompileInputs.cache
+E:\HiCard\Sansunt.HiCard\Sansunt.Domain.Core\obj\Release\netstandard2.0\Sansunt.Domain.Core.AssemblyInfoInputs.cache
+E:\HiCard\Sansunt.HiCard\Sansunt.Domain.Core\obj\Release\netstandard2.0\Sansunt.Domain.Core.AssemblyInfo.cs
+E:\HiCard\Sansunt.HiCard\Sansunt.Domain.Core\obj\Release\netstandard2.0\Sansunt.Domain.Core.dll
+E:\HiCard\Sansunt.HiCard\Sansunt.Domain.Core\obj\Release\netstandard2.0\Sansunt.Domain.Core.pdb

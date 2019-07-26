@@ -1,0 +1,14 @@
+C:\Users\59432\Documents\Works\微服务\src\ocelot_web1\ocelot_web1\bin\Debug\netcoreapp2.2\ocelot_web1.deps.json
+C:\Users\59432\Documents\Works\微服务\src\ocelot_web1\ocelot_web1\bin\Debug\netcoreapp2.2\ocelot_web1.runtimeconfig.json
+C:\Users\59432\Documents\Works\微服务\src\ocelot_web1\ocelot_web1\bin\Debug\netcoreapp2.2\ocelot_web1.runtimeconfig.dev.json
+C:\Users\59432\Documents\Works\微服务\src\ocelot_web1\ocelot_web1\bin\Debug\netcoreapp2.2\ocelot_web1.dll
+C:\Users\59432\Documents\Works\微服务\src\ocelot_web1\ocelot_web1\obj\Debug\netcoreapp2.2\ocelot_web1.csprojAssemblyReference.cache
+C:\Users\59432\Documents\Works\微服务\src\ocelot_web1\ocelot_web1\obj\Debug\netcoreapp2.2\ocelot_web1.csproj.CoreCompileInputs.cache
+C:\Users\59432\Documents\Works\微服务\src\ocelot_web1\ocelot_web1\obj\Debug\netcoreapp2.2\ocelot_web1.RazorAssemblyInfo.cache
+C:\Users\59432\Documents\Works\微服务\src\ocelot_web1\ocelot_web1\obj\Debug\netcoreapp2.2\ocelot_web1.RazorAssemblyInfo.cs
+C:\Users\59432\Documents\Works\微服务\src\ocelot_web1\ocelot_web1\obj\Debug\netcoreapp2.2\ocelot_web1.AssemblyInfoInputs.cache
+C:\Users\59432\Documents\Works\微服务\src\ocelot_web1\ocelot_web1\obj\Debug\netcoreapp2.2\ocelot_web1.AssemblyInfo.cs
+C:\Users\59432\Documents\Works\微服务\src\ocelot_web1\ocelot_web1\obj\Debug\netcoreapp2.2\ocelot_web1.RazorTargetAssemblyInfo.cache
+C:\Users\59432\Documents\Works\微服务\src\ocelot_web1\ocelot_web1\bin\Debug\netcoreapp2.2\ocelot_web1.pdb
+C:\Users\59432\Documents\Works\微服务\src\ocelot_web1\ocelot_web1\obj\Debug\netcoreapp2.2\ocelot_web1.dll
+C:\Users\59432\Documents\Works\微服务\src\ocelot_web1\ocelot_web1\obj\Debug\netcoreapp2.2\ocelot_web1.pdb

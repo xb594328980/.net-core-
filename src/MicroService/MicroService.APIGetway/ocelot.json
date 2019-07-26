@@ -1,0 +1,58 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/connect/{everything}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/identity/{everything}",
+      "UpstreamHttpMethod": [ "Post", "Get", "Delete", "Put" ],
+      "ServiceName": "IdentityServer",
+      "Priority": 2
+    },
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/test/{everything}",
+      "UpstreamHttpMethod": [ "Post", "Get", "Delete", "Put" ],
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      "ServiceName": "OcelotDownAPI_1",
+      "Priority": 2,
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "5s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "OcelotKey",
+        "AllowedScopes": []
+      },
+      "AddHeadersToRequest": {
+        "custom-userId": "Claims[user-id] > value[0]",
+        "custom-user-info": "Claims[user-info]> value[0]",
+        "custom-token-uuid": "Claims[token-uuid]> value[0]"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/rpc/test/{everything}",
+      "UpstreamHttpMethod": [ "Post", "Get", "Delete", "Put" ],
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      "ServiceName": "OcelotDownAPI_1",
+      "Priority": 2
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:51793",
+    "ServiceDiscoveryProvider": {
+      "Host": "192.168.31.220",
+      "Port": 8500,
+      "Type": "Consul"
+    }
+  }
+}

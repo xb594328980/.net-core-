@@ -1,0 +1,8 @@
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Application\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Application.deps.json
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Application\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Application.dll
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Application\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Application.pdb
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Application\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Application.csproj.CoreCompileInputs.cache
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Application\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Application.AssemblyInfoInputs.cache
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Application\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Application.AssemblyInfo.cs
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Application\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Application.dll
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Application\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Application.pdb

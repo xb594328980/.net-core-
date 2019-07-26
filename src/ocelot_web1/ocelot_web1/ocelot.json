@@ -1,0 +1,23 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/ocelot/consulWilling",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/ocelot/consulWilling",
+      "UpstreamHttpMethod": [ "Get" ],
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      "ServiceName": "OcelotDownAPI_1",
+      "Priority": 2
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:51793",
+    "ServiceDiscoveryProvider": {
+      "Host": "192.168.31.220",
+      "Port": 8500,
+      "Type": "Consul"
+    }
+  }
+}

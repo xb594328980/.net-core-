@@ -1,0 +1,12 @@
+E:\HiCard\Sansunt.HiCard\Sansunt.Infra.Bus\bin\Release\netstandard2.0\Sansunt.Infra.Bus.deps.json
+E:\HiCard\Sansunt.HiCard\Sansunt.Infra.Bus\bin\Release\netstandard2.0\Sansunt.Infra.Bus.dll
+E:\HiCard\Sansunt.HiCard\Sansunt.Infra.Bus\bin\Release\netstandard2.0\Sansunt.Infra.Bus.pdb
+E:\HiCard\Sansunt.HiCard\Sansunt.Infra.Bus\bin\Release\netstandard2.0\Sansunt.Domain.Core.dll
+E:\HiCard\Sansunt.HiCard\Sansunt.Infra.Bus\bin\Release\netstandard2.0\Sansunt.Domain.Core.pdb
+E:\HiCard\Sansunt.HiCard\Sansunt.Infra.Bus\obj\Release\netstandard2.0\Sansunt.Infra.Bus.csprojAssemblyReference.cache
+E:\HiCard\Sansunt.HiCard\Sansunt.Infra.Bus\obj\Release\netstandard2.0\Sansunt.Infra.Bus.csproj.CoreCompileInputs.cache
+E:\HiCard\Sansunt.HiCard\Sansunt.Infra.Bus\obj\Release\netstandard2.0\Sansunt.Infra.Bus.AssemblyInfoInputs.cache
+E:\HiCard\Sansunt.HiCard\Sansunt.Infra.Bus\obj\Release\netstandard2.0\Sansunt.Infra.Bus.AssemblyInfo.cs
+E:\HiCard\Sansunt.HiCard\Sansunt.Infra.Bus\obj\Release\netstandard2.0\Sansunt.Infra.Bus.csproj.CopyComplete
+E:\HiCard\Sansunt.HiCard\Sansunt.Infra.Bus\obj\Release\netstandard2.0\Sansunt.Infra.Bus.dll
+E:\HiCard\Sansunt.HiCard\Sansunt.Infra.Bus\obj\Release\netstandard2.0\Sansunt.Infra.Bus.pdb
