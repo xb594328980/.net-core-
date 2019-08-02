@@ -6,3 +6,6 @@ E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Infra.Mappe
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Infra.Mapper\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Infra.Mapper.AssemblyInfo.cs
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Infra.Mapper\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Infra.Mapper.dll
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Infra.Mapper\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Infra.Mapper.pdb
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Infra.Mapper\bin\Debug\netcoreapp2.2\Sansunt.Infra.Tools.dll
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Infra.Mapper\bin\Debug\netcoreapp2.2\Sansunt.Infra.Tools.pdb
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Infra.Mapper\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.Infra.Mapper.csproj.CopyComplete

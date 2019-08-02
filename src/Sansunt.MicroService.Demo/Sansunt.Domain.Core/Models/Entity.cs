@@ -9,13 +9,13 @@ namespace Sansunt.Domain.Core.Models
     /// 定义领域实体基类
     /// <remarks>create by xingbo 18/12/17</remarks>
     /// </summary>
-    public abstract class Entity<T>
+    public abstract class Entity
     {
         /// <summary>
         /// 唯一标识
         /// </summary>
         [Key]
-        public T Id { get;  set; }
+        public Guid Id { get; set; }
 
 
         /// <summary>
@@ -25,7 +25,7 @@ namespace Sansunt.Domain.Core.Models
         /// <returns></returns>
         public override bool Equals(object obj)
         {
-            var compareTo = obj as Entity<T>;
+            var compareTo = obj as Entity;
 
             if (ReferenceEquals(this, compareTo)) return true;
             if (ReferenceEquals(null, compareTo)) return false;
@@ -38,7 +38,7 @@ namespace Sansunt.Domain.Core.Models
         /// <param name="a">领域实体a</param>
         /// <param name="b">领域实体b</param>
         /// <returns></returns>
-        public static bool operator ==(Entity<T> a, Entity<T> b)
+        public static bool operator ==(Entity a, Entity b)
         {
             if (ReferenceEquals(a, null) && ReferenceEquals(b, null))
                 return true;
@@ -54,7 +54,7 @@ namespace Sansunt.Domain.Core.Models
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns></returns>
-        public static bool operator !=(Entity<T> a, Entity<T> b)
+        public static bool operator !=(Entity a, Entity b)
         {
             return !(a == b);
         }

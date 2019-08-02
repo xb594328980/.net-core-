@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Sansunt.MicroService.Demo.Extensions;
+using Sansunt.MicroService.Demo.Extensions.Consul;
 
 namespace Sansunt.MicroService.Demo.ShoppingCart
 {

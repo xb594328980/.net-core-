@@ -23,29 +23,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sansunt.Infra.Schedulers", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sansunt.Domain.Core", "Sansunt.Domain.Core\Sansunt.Domain.Core.csproj", "{979C49D3-0CC9-4930-9AB9-BFC51DCAFD09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sansunt.MicroService.Demo.Domain", "Sansunt.MicroService.Demo.Domain\Sansunt.MicroService.Demo.Domain.csproj", "{E2027993-78B9-4DAD-B662-D9CDB5A95A84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sansunt.MicroService.Demo.Domain", "Sansunt.MicroService.Demo.Domain\Sansunt.MicroService.Demo.Domain.csproj", "{E2027993-78B9-4DAD-B662-D9CDB5A95A84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sansunt.MicroService.Demo.Application", "Sansunt.MicroService.Demo.Application\Sansunt.MicroService.Demo.Application.csproj", "{EBB683A9-5B37-4597-9E2C-96C9A8CDC795}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sansunt.MicroService.Demo.Application", "Sansunt.MicroService.Demo.Application\Sansunt.MicroService.Demo.Application.csproj", "{EBB683A9-5B37-4597-9E2C-96C9A8CDC795}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sansunt.MicroService.Demo.ApiGetway", "Sansunt.MicroService.Demo.ApiGetway\Sansunt.MicroService.Demo.ApiGetway.csproj", "{BB9F408B-7E96-48CF-A2AE-6822041DFD3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sansunt.MicroService.Demo.ApiGetway", "Sansunt.MicroService.Demo.ApiGetway\Sansunt.MicroService.Demo.ApiGetway.csproj", "{BB9F408B-7E96-48CF-A2AE-6822041DFD3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sansunt.MicroService.Demo.Infra.Config", "Sansunt.MicroService.Demo.Infra.Config\Sansunt.MicroService.Demo.Infra.Config.csproj", "{1C00DCA0-B8D1-492B-AC28-983A5B31522D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sansunt.MicroService.Demo.Infra.Config", "Sansunt.MicroService.Demo.Infra.Config\Sansunt.MicroService.Demo.Infra.Config.csproj", "{1C00DCA0-B8D1-492B-AC28-983A5B31522D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sansunt.MicroService.Demo.Infra.Data", "Sansunt.MicroService.Demo.Infra.Data\Sansunt.MicroService.Demo.Infra.Data.csproj", "{DCB3F1A7-4EC3-45CC-82FB-2313491C1DBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sansunt.MicroService.Demo.Infra.Data", "Sansunt.MicroService.Demo.Infra.Data\Sansunt.MicroService.Demo.Infra.Data.csproj", "{DCB3F1A7-4EC3-45CC-82FB-2313491C1DBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sansunt.MicroService.Demo.Infra.IoC", "Sansunt.MicroService.Demo.Infra.IoC\Sansunt.MicroService.Demo.Infra.IoC.csproj", "{83D35A68-E80B-4C5D-B007-A5949ED780EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sansunt.MicroService.Demo.Infra.Ioc", "Sansunt.MicroService.Demo.Infra.IoC\Sansunt.MicroService.Demo.Infra.Ioc.csproj", "{83D35A68-E80B-4C5D-B007-A5949ED780EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sansunt.MicroService.Demo.Infra.Mapper", "Sansunt.MicroService.Demo.Infra.Mapper\Sansunt.MicroService.Demo.Infra.Mapper.csproj", "{B21B2EA7-DD40-4AAA-8155-330BD6A51ABE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sansunt.MicroService.Demo.Infra.Mapper", "Sansunt.MicroService.Demo.Infra.Mapper\Sansunt.MicroService.Demo.Infra.Mapper.csproj", "{B21B2EA7-DD40-4AAA-8155-330BD6A51ABE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sansunt.MicroService.Demo.IdentityServer.Host", "Sansunt.MicroService.Demo.IdentityServer.Host\Sansunt.MicroService.Demo.IdentityServer.Host.csproj", "{87CE5AE3-7A3A-478F-8C33-508622A6506E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sansunt.MicroService.Demo.IdentityServer.Host", "Sansunt.MicroService.Demo.IdentityServer.Host\Sansunt.MicroService.Demo.IdentityServer.Host.csproj", "{87CE5AE3-7A3A-478F-8C33-508622A6506E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sansunt.MicroService.Demo.ShoppingCart", "Sansunt.MicroService.Demo.ShoppingCart\Sansunt.MicroService.Demo.ShoppingCart.csproj", "{26413584-9A03-4241-95FD-FB979EA0404D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sansunt.MicroService.Demo.ShoppingCart", "Sansunt.MicroService.Demo.ShoppingCart\Sansunt.MicroService.Demo.ShoppingCart.csproj", "{26413584-9A03-4241-95FD-FB979EA0404D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sansunt.MicroService.Demo.PersonalCenter", "Sansunt.MicroService.Demo.PersonalCenter\Sansunt.MicroService.Demo.PersonalCenter.csproj", "{97B17416-1AB1-4DFA-B32D-AF24E091F18A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sansunt.MicroService.Demo.PersonalCenter", "Sansunt.MicroService.Demo.PersonalCenter\Sansunt.MicroService.Demo.PersonalCenter.csproj", "{97B17416-1AB1-4DFA-B32D-AF24E091F18A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sansunt.MicroService.Demo.OrderManage", "Sansunt.MicroService.Demo.OrderManage\Sansunt.MicroService.Demo.OrderManage.csproj", "{2BD66897-7355-44AD-ABC4-071518E6478A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sansunt.MicroService.Demo.OrderManage", "Sansunt.MicroService.Demo.OrderManage\Sansunt.MicroService.Demo.OrderManage.csproj", "{2BD66897-7355-44AD-ABC4-071518E6478A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sansunt.MicroService.Demo.Extensions", "Sansunt.MicroService.Demo.Extensions\Sansunt.MicroService.Demo.Extensions.csproj", "{CE0AA13E-3CB1-454F-9844-E47843CABE64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sansunt.MicroService.Demo.Extensions", "Sansunt.MicroService.Demo.Extensions\Sansunt.MicroService.Demo.Extensions.csproj", "{CE0AA13E-3CB1-454F-9844-E47843CABE64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sansunt.MicroService.Demo.Infra.Enum", "Sansunt.MicroService.Demo.Infra.Enum\Sansunt.MicroService.Demo.Infra.Enum.csproj", "{2902C21C-EAFA-4CB1-B6D2-AA70E3ED7158}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +127,10 @@ Global
 		{CE0AA13E-3CB1-454F-9844-E47843CABE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE0AA13E-3CB1-454F-9844-E47843CABE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE0AA13E-3CB1-454F-9844-E47843CABE64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2902C21C-EAFA-4CB1-B6D2-AA70E3ED7158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2902C21C-EAFA-4CB1-B6D2-AA70E3ED7158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2902C21C-EAFA-4CB1-B6D2-AA70E3ED7158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2902C21C-EAFA-4CB1-B6D2-AA70E3ED7158}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -148,6 +154,7 @@ Global
 		{97B17416-1AB1-4DFA-B32D-AF24E091F18A} = {AC86658A-B678-4289-8C76-284BC1E70DC4}
 		{2BD66897-7355-44AD-ABC4-071518E6478A} = {AC86658A-B678-4289-8C76-284BC1E70DC4}
 		{CE0AA13E-3CB1-454F-9844-E47843CABE64} = {AC86658A-B678-4289-8C76-284BC1E70DC4}
+		{2902C21C-EAFA-4CB1-B6D2-AA70E3ED7158} = {9B5184E9-7785-422E-B023-F99A5609D018}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6600C14A-1B3E-4EB2-A984-CE71185C14DE}

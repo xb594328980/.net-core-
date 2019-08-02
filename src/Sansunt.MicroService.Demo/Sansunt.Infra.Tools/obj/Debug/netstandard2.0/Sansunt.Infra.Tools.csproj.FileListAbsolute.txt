@@ -13,7 +13,6 @@ E:\HiCard\Sansunt.HiCard\Sansunt.Infra.Tools\obj\Debug\netstandard2.0\Sansunt.In
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Tools\bin\Debug\netstandard2.0\Sansunt.Infra.Tools.deps.json
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Tools\bin\Debug\netstandard2.0\Sansunt.Infra.Tools.dll
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Tools\bin\Debug\netstandard2.0\Sansunt.Infra.Tools.pdb
-E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Tools\obj\Debug\netstandard2.0\Sansunt.Infra.Tools.csprojAssemblyReference.cache
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Tools\obj\Debug\netstandard2.0\Sansunt.Infra.Tools.Properties.LibraryResource.resources
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Tools\obj\Debug\netstandard2.0\Sansunt.Infra.Tools.Properties.R.resources
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Tools\obj\Debug\netstandard2.0\Sansunt.Infra.Tools.csproj.GenerateResource.cache
@@ -22,3 +21,4 @@ E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Tools\obj\Debug\netstan
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Tools\obj\Debug\netstandard2.0\Sansunt.Infra.Tools.AssemblyInfo.cs
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Tools\obj\Debug\netstandard2.0\Sansunt.Infra.Tools.dll
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Tools\obj\Debug\netstandard2.0\Sansunt.Infra.Tools.pdb
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Tools\obj\Debug\netstandard2.0\Sansunt.Infra.Tools.csprojAssemblyReference.cache

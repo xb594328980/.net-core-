@@ -4,4 +4,16 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Sansunt.Infra.Bus\Sansunt.Infra.Bus.csproj" />
+    <ProjectReference Include="..\Sansunt.Infra.Caches\Sansunt.Infra.Caches.csproj" />
+    <ProjectReference Include="..\Sansunt.Infra.Logs\Sansunt.Infra.Logs.csproj" />
+    <ProjectReference Include="..\Sansunt.Infra.Schedulers\Sansunt.Infra.Schedulers.csproj" />
+    <ProjectReference Include="..\Sansunt.Infra.Tools\Sansunt.Infra.Tools.csproj" />
+    <ProjectReference Include="..\Sansunt.MicroService.Demo.Application\Sansunt.MicroService.Demo.Application.csproj" />
+    <ProjectReference Include="..\Sansunt.MicroService.Demo.Domain\Sansunt.MicroService.Demo.Domain.csproj" />
+    <ProjectReference Include="..\Sansunt.MicroService.Demo.Infra.Config\Sansunt.MicroService.Demo.Infra.Config.csproj" />
+    <ProjectReference Include="..\Sansunt.MicroService.Demo.Infra.Data\Sansunt.MicroService.Demo.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>

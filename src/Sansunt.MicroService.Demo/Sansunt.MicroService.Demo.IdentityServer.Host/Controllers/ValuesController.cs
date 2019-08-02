@@ -2,44 +2,42 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Sansunt.Domain.Core.Bus;
+using Sansunt.Domain.Core.Notifications;
+using Sansunt.Infra.Logs;
+using Sansunt.Infra.Tools.Caches;
+using Sansunt.Infra.Tools.Schedulers;
 
 namespace Sansunt.MicroService.Demo.IdentityServer.Host.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class ValuesController : ControllerBase
+    public class ValuesController : ApiController
     {
-        // GET api/values
+        #region 初始化
+        private readonly ICache _cache;
+
+
+        public ValuesController(INotificationHandler<DomainNotification> notifications,
+            IMediatorHandler mediator,
+            ICache cache) : base(notifications, mediator)
+        {
+            _cache = cache;
+        }
+
+
+        #endregion
+        /// <summary>
+        /// 示例
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            Log.Debug("23123123213");
+            return ("abc");
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
-        {
-            return "value";
-        }
 
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
     }
 }

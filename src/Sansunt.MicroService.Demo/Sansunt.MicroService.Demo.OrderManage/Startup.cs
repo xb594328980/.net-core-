@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Sansunt.MicroService.Demo.Extensions;
+using Sansunt.MicroService.Demo.Extensions.Consul;
 
 namespace Sansunt.MicroService.Demo.OrderManage
 {
@@ -42,10 +43,7 @@ namespace Sansunt.MicroService.Demo.OrderManage
 
             app.UseMvc();
             app.RegisterConsul(lifetime, _healthService, _consulService);
-            app.RegisterConsul(options =>
-            {
-                options.ConsulServiceConfig=new ConsulService(){Ip = "123456" };
-            });
+          
         }
     }
 }

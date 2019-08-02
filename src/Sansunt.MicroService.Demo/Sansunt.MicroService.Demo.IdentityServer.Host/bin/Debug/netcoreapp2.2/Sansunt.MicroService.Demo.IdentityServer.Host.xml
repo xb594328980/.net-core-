@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sansunt.MicroService.Demo.IdentityServer.Host</name>
+    </assembly>
+    <members>
+        <member name="T:Sansunt.MicroService.Demo.IdentityServer.Host.Controllers.ApiController">
+            <summary>
+            父级控制器
+            <remarks>create by xingbo 18/12/20</remarks>
+            </summary>
+        </member>
+        <member name="M:Sansunt.MicroService.Demo.IdentityServer.Host.Controllers.ApiController.#ctor(MediatR.INotificationHandler{Sansunt.Domain.Core.Notifications.DomainNotification},Sansunt.Domain.Core.Bus.IMediatorHandler)">
+            <summary>
+            构造
+            </summary>
+            <param name="notifications"></param>
+            <param name="mediator"></param>
+        </member>
+        <member name="P:Sansunt.MicroService.Demo.IdentityServer.Host.Controllers.ApiController.Notifications">
+            <summary>
+            获取提醒
+            </summary>
+        </member>
+        <member name="M:Sansunt.MicroService.Demo.IdentityServer.Host.Controllers.ApiController.IsValidOperation">
+            <summary>
+            是否有提醒
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sansunt.MicroService.Demo.IdentityServer.Host.Controllers.ApiController.Response(System.Object)">
+            <summary>
+            返回信息
+            </summary>
+            <param name="result">结果</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sansunt.MicroService.Demo.IdentityServer.Host.Controllers.ApiController.ErrorResponse(Sansunt.MicroService.Demo.Infra.Enum.ErrorCodeEnum,System.String)">
+            <summary>
+            返回错信息
+            </summary>
+            <param name="errorCode">错误码</param>
+            <param name="errorMsg">错误信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sansunt.MicroService.Demo.IdentityServer.Host.Controllers.ApiController.ErrorResponse(System.String)">
+            <summary>
+            返回错信息
+            </summary>
+            <param name="errorMsg">错误信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sansunt.MicroService.Demo.IdentityServer.Host.Controllers.ApiController.NotifyModelStateErrors">
+            <summary>
+            把验证错误引发错误通知
+            </summary>
+        </member>
+        <member name="M:Sansunt.MicroService.Demo.IdentityServer.Host.Controllers.ApiController.NotifyError(System.String,System.String)">
+            <summary>
+            发布错误通知
+            </summary>
+            <param name="code"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:Sansunt.MicroService.Demo.IdentityServer.Host.Controllers.ApiController.AddIdentityErrors(Microsoft.AspNetCore.Identity.IdentityResult)">
+            <summary>
+            把身份验证错误引发错误通知
+            </summary>
+            <param name="result"></param>
+        </member>
+        <member name="F:Sansunt.MicroService.Demo.IdentityServer.Host.Controllers.ApiController._log">
+            <summary>
+            日志
+            </summary>
+        </member>
+        <member name="P:Sansunt.MicroService.Demo.IdentityServer.Host.Controllers.ApiController.Log">
+            <summary>
+            日志
+            </summary>
+        </member>
+        <member name="M:Sansunt.MicroService.Demo.IdentityServer.Host.Controllers.ApiController.GetLog">
+            <summary>
+            获取日志操作
+            </summary>
+        </member>
+        <member name="M:Sansunt.MicroService.Demo.IdentityServer.Host.Controllers.ValuesController.Get">
+            <summary>
+            示例
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

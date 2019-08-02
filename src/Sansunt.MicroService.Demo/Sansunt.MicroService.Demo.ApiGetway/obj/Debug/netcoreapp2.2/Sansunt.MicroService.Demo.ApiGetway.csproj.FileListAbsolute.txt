@@ -3,7 +3,6 @@ E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ApiGetway\b
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ApiGetway\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ApiGetway.runtimeconfig.dev.json
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ApiGetway\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ApiGetway.dll
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ApiGetway\bin\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ApiGetway.pdb
-E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ApiGetway\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ApiGetway.csprojAssemblyReference.cache
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ApiGetway\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ApiGetway.csproj.CoreCompileInputs.cache
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ApiGetway\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ApiGetway.RazorAssemblyInfo.cache
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ApiGetway\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ApiGetway.RazorAssemblyInfo.cs

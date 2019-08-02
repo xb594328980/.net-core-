@@ -4,6 +4,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.Net.Http.Headers;
 using Ocelot.Logging;
 using Ocelot.Middleware;
+using Sansunt.MicroService.Demo.Extensions.Gateway;
 
 namespace Sansunt.MicroService.Demo.Extensions.Middleware
 {
