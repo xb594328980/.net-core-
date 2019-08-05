@@ -9,6 +9,9 @@ namespace Sansunt.Infra.Tools.Maps {
     /// 对象映射
     /// </summary>
     public static class Extensions {
+
+
+
         /// <summary>
         /// 同步锁
         /// </summary>

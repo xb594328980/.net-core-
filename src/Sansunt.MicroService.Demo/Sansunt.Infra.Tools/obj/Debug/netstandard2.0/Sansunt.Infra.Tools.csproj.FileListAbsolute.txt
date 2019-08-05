@@ -21,3 +21,4 @@ E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Tools\obj\Debug\netstan
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Tools\obj\Debug\netstandard2.0\Sansunt.Infra.Tools.AssemblyInfo.cs
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Tools\obj\Debug\netstandard2.0\Sansunt.Infra.Tools.dll
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Tools\obj\Debug\netstandard2.0\Sansunt.Infra.Tools.pdb
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Tools\obj\Debug\netstandard2.0\Sansunt.Infra.Tools.csprojAssemblyReference.cache

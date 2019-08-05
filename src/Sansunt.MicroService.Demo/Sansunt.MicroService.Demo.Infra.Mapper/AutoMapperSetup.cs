@@ -16,9 +16,11 @@ namespace Sansunt.MicroService.Demo.Infra.Mapper
         {
             if (services == null) throw new ArgumentNullException(nameof(services));
             //启动配置
-            var config = AutoMapperConfig.RegisterMappings();
-            //config.AssertConfigurationIsValid();
-            services.AddSingleton<IMapper>(sp => config.CreateMapper());//手动添加映射关系 
+            //var config = AutoMapperConfig.RegisterMappings();
+            //services.AddSingleton<IMapper>(sp => AutoMapperConfig.InstanceMapping());
+            var mapper = AutoMapperConfig.StaticMapping();
+            //mapper.ConfigurationProvider.AssertConfigurationIsValid();
+            services.AddSingleton<IMapper>(mapper);//手动添加映射关系 
         }
     }
 

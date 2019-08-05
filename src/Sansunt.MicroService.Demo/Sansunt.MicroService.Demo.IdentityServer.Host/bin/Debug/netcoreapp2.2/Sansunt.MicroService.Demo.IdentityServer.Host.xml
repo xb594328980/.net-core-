@@ -117,5 +117,25 @@
             <param name="context"></param>
             <returns></returns>
         </member>
+        <member name="T:Sansunt.MicroService.Demo.IdentityServer.Host.Startup">
+            <summary>
+            启动配置
+            </summary>
+        </member>
+        <member name="M:Sansunt.MicroService.Demo.IdentityServer.Host.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+             <summary>
+            This method gets called by the runtime.Use this method to add services to the container.
+             </summary>
+             <param name="services"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Sansunt.MicroService.Demo.IdentityServer.Host.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.AspNetCore.Hosting.IApplicationLifetime)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+            <param name="lifetime"></param>
+        </member>
     </members>
 </doc>
