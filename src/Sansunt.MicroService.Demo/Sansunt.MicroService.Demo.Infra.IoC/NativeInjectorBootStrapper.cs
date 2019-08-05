@@ -19,6 +19,7 @@ using Sansunt.Infra.Tools.Dependency;
 using Sansunt.MicroService.Demo.Domain.Interfaces;
 using Sansunt.MicroService.Demo.Infra.Data.UoW;
 using Sansunt.Infra.Bus;
+using Sansunt.MicroService.Demo.Application.Services;
 using Sansunt.MicroService.Demo.Infra.Data.Context;
 using Sansunt.MicroService.Demo.Infra.Data.Repository;
 
@@ -39,8 +40,8 @@ namespace Sansunt.MicroService.Demo.Infra.Ioc
             #endregion
             #region Application
             // 注入 Application 应用层   // .InstancePerLifetimeScope().EnableInterfaceInterceptors().InterceptedBy(typeof(LogAOP));//可以直接替换拦截器;
-            //builder.RegisterAssemblyTypes(typeof(UserAppService).GetTypeInfo().Assembly).Where(x => x.FullName.EndsWith("AppService"))
-            //    .AsImplementedInterfaces().PropertiesAutowired();
+            builder.RegisterAssemblyTypes(typeof(StaffAppService).GetTypeInfo().Assembly).Where(x => x.FullName.EndsWith("AppService"))
+                .AsImplementedInterfaces().PropertiesAutowired();
             #endregion
             #region Infra - Data
             // 注入 Infra - Data 基础设施数据层

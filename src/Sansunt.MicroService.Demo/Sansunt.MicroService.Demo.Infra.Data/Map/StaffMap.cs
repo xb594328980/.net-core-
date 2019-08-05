@@ -15,7 +15,25 @@ namespace Sansunt.MicroService.Demo.Infra.Data.Map
     {
         public void Configure(EntityTypeBuilder<Staff> builder)
         {
-            throw new NotImplementedException();
+            builder.ToTable("sys_staff");//设置表名
+            builder.HasKey(x => x.Id);//设置主键
+            builder.HasIndex(x => new { x.Account, x.DelFlag, x.Id });
+            #region 设置列
+
+            builder.Property(c => c.Id).HasColumnName("Id").HasColumnType("varchar(64)").IsRequired();
+
+            builder.Property(c => c.Account).HasColumnName("account").HasColumnType("varchar(64)").IsRequired();
+            builder.Property(c => c.NickName).HasColumnName("nick_name").HasColumnType("varchar(64)").IsRequired();
+            builder.Property(c => c.Pwd).HasColumnName("pwd").HasColumnType("varchar(64)").IsRequired();
+            builder.Property(c => c.Status).HasColumnName("status").IsRequired();
+
+            builder.Property(c => c.CreateBy).HasColumnName("create_by").HasColumnType("varchar(64)").IsRequired();
+            builder.Property(c => c.UpdateBy).HasColumnName("update_by").HasColumnType("varchar(64)");
+            builder.Property(c => c.CreateTime).HasColumnName("create_time").IsRequired();
+            builder.Property(c => c.UpdateTime).HasColumnName("update_time");
+            builder.Property(c => c.Remark).HasColumnType("varchar(512)").HasColumnName("remark");
+            builder.Property(c => c.DelFlag).HasColumnName("del_flag");
+            #endregion
         }
     }
 }

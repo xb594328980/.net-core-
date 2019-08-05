@@ -30,6 +30,8 @@ namespace Sansunt.MicroService.Demo.Infra.Ioc
 
             // 将事件模型和事件处理程序匹配注入
             builder.RegisterType<DomainNotificationHandler>().As<INotificationHandler<DomainNotification>>().InstancePerLifetimeScope();
+
+
         }
     }
 }

@@ -6,3 +6,4 @@ E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Infra.Enum\
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Infra.Enum\obj\Debug\netstandard2.0\Sansunt.MicroService.Demo.Infra.Enum.AssemblyInfo.cs
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Infra.Enum\obj\Debug\netstandard2.0\Sansunt.MicroService.Demo.Infra.Enum.dll
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Infra.Enum\obj\Debug\netstandard2.0\Sansunt.MicroService.Demo.Infra.Enum.pdb
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.Infra.Enum\obj\Debug\netstandard2.0\Sansunt.MicroService.Demo.Infra.Enum.csprojAssemblyReference.cache

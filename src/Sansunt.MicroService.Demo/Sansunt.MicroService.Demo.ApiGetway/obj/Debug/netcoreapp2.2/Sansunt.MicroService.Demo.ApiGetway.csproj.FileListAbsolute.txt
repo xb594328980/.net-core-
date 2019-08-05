@@ -11,3 +11,4 @@ E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ApiGetway\o
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ApiGetway\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ApiGetway.RazorTargetAssemblyInfo.cache
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ApiGetway\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ApiGetway.dll
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ApiGetway\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ApiGetway.pdb
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.MicroService.Demo.ApiGetway\obj\Debug\netcoreapp2.2\Sansunt.MicroService.Demo.ApiGetway.csprojAssemblyReference.cache

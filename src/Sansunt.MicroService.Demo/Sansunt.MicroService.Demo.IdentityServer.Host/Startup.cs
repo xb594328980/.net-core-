@@ -2,8 +2,13 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
+using EasyCaching.Core.Configurations;
 using EasyCaching.InMemory;
+using EasyCaching.Redis;
+using IdentityServer4.Services;
+using IdentityServer4.Validation;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -20,6 +25,7 @@ using Sansunt.Infra.Tools.Schedulers;
 using Sansunt.MicroService.Demo.Extensions.Consul;
 using Sansunt.MicroService.Demo.Extensions.Extensions;
 using Sansunt.MicroService.Demo.Extensions.Filters;
+using Sansunt.MicroService.Demo.IdentityServer.Host.Extensions;
 using Sansunt.MicroService.Demo.Infra.Config;
 using Sansunt.MicroService.Demo.Infra.Ioc;
 using Sansunt.MicroService.Demo.Infra.Mapper;
@@ -27,6 +33,9 @@ using Swashbuckle.AspNetCore.Swagger;
 
 namespace Sansunt.MicroService.Demo.IdentityServer.Host
 {
+    /// <summary>
+    /// 启动配置
+    /// </summary>
     public class Startup
     {
         public IConfiguration Configuration { get; }
@@ -41,7 +50,11 @@ namespace Sansunt.MicroService.Demo.IdentityServer.Host
             _consulService = Configuration.GetSection("Consul").Get<ConsulService>();
             _healthService = Configuration.GetSection("Service").Get<HealthService>();
         }
-        // This method gets called by the runtime. Use this method to add services to the container.
+        /// <summary>
+        ///This method gets called by the runtime.Use this method to add services to the container.
+        /// </summary>
+        /// <param name="services"></param>
+        /// <returns></returns>
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
             #region 添加Swagger
@@ -56,6 +69,7 @@ namespace Sansunt.MicroService.Demo.IdentityServer.Host
                 });
             }
             #endregion
+            #region 添加mvc
             services.AddMvc(opt =>
             {
                 var centralRoutePrefix = Configuration.GetSection("AppConfig:CentralRoutePrefix")?.Value;
@@ -63,6 +77,7 @@ namespace Sansunt.MicroService.Demo.IdentityServer.Host
                 opt.UseCentralRoutePrefix(new RouteAttribute(centralRoutePrefix));
 
             }).SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            #endregion
             #region 跨域
             var urls = Configuration["AppConfig:Cores"].Split(',');
             services.AddCors(options =>
@@ -70,23 +85,36 @@ namespace Sansunt.MicroService.Demo.IdentityServer.Host
                     builder => builder.WithOrigins(urls).AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin().AllowCredentials())
             );
             #endregion 跨域
-            //AutoMapper
+            #region AutoMapper
             services.AddAutoMapperSetup();
-            //NLog
+            #endregion
+            #region NLog
             services.AddNLog();
-            //MediatR
+            #endregion
+            #region MediatR
             services.AddMediatR(typeof(Startup));
-            //缓存
+            #endregion
+            #region 缓存
             services.AddCache(options =>
             {
-                options.UseInMemory();
+                //options.UseInMemory();
                 //use redis cache
-                /*options.UseRedis(config =>
+                options.UseRedis(config =>
                 {
-                    config.DBConfig.Endpoints.Add(new ServerEndPoint("127.0.0.1", 6380));
-                }, "redis2");*/
+                    config.DBConfig.Endpoints.Add(new ServerEndPoint("192.168.31.220", 6379));
+                    config.DBConfig.Password = "123";
+                }, "redis2");
             });
-
+            #endregion
+            #region IdentityServer4
+            services.AddTransient<IProfileService, ProfileService>();
+            services.AddTransient<IResourceOwnerPasswordValidator, ResourceOwnerPasswordValidator>();
+            services.AddIdentityServer()
+                .AddSigningCredential(new X509Certificate2("./certificate/cas.clientservice.pfx", "12345678"))
+                .AddInMemoryIdentityResources(IdentityServerConfig.GetIdentityResourceResources())
+                .AddInMemoryApiResources(IdentityServerConfig.GetApiResources())
+                .AddInMemoryClients(IdentityServerConfig.GetClients());
+            #endregion
             #region autofac
             //services.AddSingleton<Microsoft.AspNetCore.Http.IHttpContextAccessor, Microsoft.AspNetCore.Http.HttpContextAccessor>();
             //注册平台组件
@@ -99,7 +127,12 @@ namespace Sansunt.MicroService.Demo.IdentityServer.Host
             return serviceProvider;
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        /// <summary>
+        /// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        /// </summary>
+        /// <param name="app"></param>
+        /// <param name="env"></param>
+        /// <param name="lifetime"></param>
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, IApplicationLifetime lifetime)
         {
             if (env.IsDevelopment())
@@ -112,6 +145,7 @@ namespace Sansunt.MicroService.Demo.IdentityServer.Host
                 .AllowAnyHeader()
                 .AllowCredentials());
             app.UseStaticFiles();//启用静态文件访问
+            app.UseIdentityServer();
             app.UseMvc(routes =>
             {
                 //routes.MapRoute("default", "{controller}/{action}", new { controller = "Values", action = "Get" });

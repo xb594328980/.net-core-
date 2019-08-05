@@ -6,6 +6,7 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Sansunt.Domain.Core.Bus;
 using Sansunt.Domain.Core.Notifications;
+using Sansunt.Infra.Caches;
 using Sansunt.Infra.Logs;
 using Sansunt.Infra.Tools.Caches;
 using Sansunt.Infra.Tools.Schedulers;
@@ -34,7 +35,9 @@ namespace Sansunt.MicroService.Demo.IdentityServer.Host.Controllers
         [HttpGet]
         public ActionResult<string> Get()
         {
-            Log.Debug("23123123213");
+            _cache.Remove("123");
+            _cache.TrySet("123", "456", CacheExpireType.Minute5.GetExpireTime());
+
             return ("abc");
         }
 

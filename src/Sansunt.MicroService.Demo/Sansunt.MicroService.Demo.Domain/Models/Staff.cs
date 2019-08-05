@@ -59,6 +59,12 @@ namespace Sansunt.MicroService.Demo.Domain.Models
         public int DelFlag { get; set; }
 
 
+        /// <summary>
+        /// 备注
+        /// </summary>
+        public string Remark { get; set; }
+
+
 
     }
 }

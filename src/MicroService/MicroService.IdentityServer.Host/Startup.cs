@@ -46,8 +46,7 @@ namespace MicroService.IdentityServer.Host
                  .AddSigningCredential(new X509Certificate2("./certificate/cas.clientservice.pfx", "12345678"))
                  .AddInMemoryIdentityResources(IdentityServerConfig.GetIdentityResourceResources())
                  .AddInMemoryApiResources(IdentityServerConfig.GetApiResources())
-                 .AddInMemoryClients(IdentityServerConfig.GetClients())
-                 ;
+                 .AddInMemoryClients(IdentityServerConfig.GetClients());
 
         }
 

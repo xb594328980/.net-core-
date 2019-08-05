@@ -3335,7 +3335,9 @@
       },
       "Sansunt.MicroService.Demo.Infra.Mapper/1.0.0": {
         "dependencies": {
-          "Sansunt.Infra.Tools": "1.0.0"
+          "Sansunt.Infra.Tools": "1.0.0",
+          "Sansunt.MicroService.Demo.Application": "1.0.0",
+          "Sansunt.MicroService.Demo.Domain": "1.0.0"
         },
         "runtime": {
           "Sansunt.MicroService.Demo.Infra.Mapper.dll": {}

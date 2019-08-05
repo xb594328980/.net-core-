@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "efd1ef3eeb0f515855d4e37e16b71f9e456b50e6"
+    "signature": "e914782fc5b3a670e138e7808d129a1e78792e26"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,8 @@
     ".NETCoreApp,Version=v2.2": {
       "Sansunt.MicroService.Demo.IdentityServer.Host/1.0.0": {
         "dependencies": {
+          "IdentityServer4": "2.5.1",
+          "IdentityServer4.AspNetIdentity": "2.5.1",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
@@ -410,6 +412,62 @@
         },
         "compile": {
           "lib/netstandard2.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityServer4/2.5.1": {
+        "dependencies": {
+          "IdentityModel": "3.10.10",
+          "IdentityServer4.Storage": "2.5.1",
+          "Microsoft.AspNetCore.Authentication": "2.2.0",
+          "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0",
+          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "2.2.0",
+          "Microsoft.AspNetCore.Authorization": "2.2.0",
+          "Microsoft.AspNetCore.Cors": "2.2.0",
+          "Microsoft.Extensions.Caching.Memory": "2.2.0",
+          "Microsoft.Extensions.Http": "2.2.0",
+          "Microsoft.Extensions.Logging": "2.2.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "2.2.0",
+          "System.IdentityModel.Tokens.Jwt": "5.3.0",
+          "System.Security.Cryptography.Cng": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityServer4.dll": {
+            "assemblyVersion": "2.5.1.0",
+            "fileVersion": "2.5.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityServer4.dll": {}
+        }
+      },
+      "IdentityServer4.AspNetIdentity/2.5.1": {
+        "dependencies": {
+          "IdentityServer4": "2.5.1",
+          "Microsoft.AspNetCore.Identity": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityServer4.AspNetIdentity.dll": {
+            "assemblyVersion": "2.5.1.0",
+            "fileVersion": "2.5.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityServer4.AspNetIdentity.dll": {}
+        }
+      },
+      "IdentityServer4.Storage/2.5.1": {
+        "dependencies": {
+          "IdentityModel": "3.10.10",
+          "Microsoft.AspNetCore.Authentication.Abstractions": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityServer4.Storage.dll": {
+            "assemblyVersion": "2.5.1.0",
+            "fileVersion": "2.5.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityServer4.Storage.dll": {}
         }
       },
       "MediatR/7.0.0": {
@@ -1299,7 +1357,9 @@
       },
       "Sansunt.MicroService.Demo.Infra.Mapper/1.0.0": {
         "dependencies": {
-          "Sansunt.Infra.Tools": "1.0.0"
+          "Sansunt.Infra.Tools": "1.0.0",
+          "Sansunt.MicroService.Demo.Application": "1.0.0",
+          "Sansunt.MicroService.Demo.Domain": "1.0.0"
         },
         "runtime": {
           "Sansunt.MicroService.Demo.Infra.Mapper.dll": {}
@@ -4540,6 +4600,27 @@
       "sha512": "sha512-1CZDkFEZC5hU615GrTXLoamLlLlZVNURnjbdjELw3keSRcPufSIwP5NI0f8quUBV/beuKy9yIqYemmMIDIY87w==",
       "path": "identitymodel/3.10.10",
       "hashPath": "identitymodel.3.10.10.nupkg.sha512"
+    },
+    "IdentityServer4/2.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0ShR8vkWBReuo80lRZsZ+ADXqYF4xMZPQZ9KxucY2MB4+wKQV2Orf9gzYx1/6iDeQMG0CXco/CiKUh6gxQ0F+g==",
+      "path": "identityserver4/2.5.1",
+      "hashPath": "identityserver4.2.5.1.nupkg.sha512"
+    },
+    "IdentityServer4.AspNetIdentity/2.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GiT4R53MqH73GG9lvyxa02U+c1xcYU3d9p4kCSHmEK7gpVA2AocnFGTuQCVB//MvZPGcEVDmKQMwjkVis10R8Q==",
+      "path": "identityserver4.aspnetidentity/2.5.1",
+      "hashPath": "identityserver4.aspnetidentity.2.5.1.nupkg.sha512"
+    },
+    "IdentityServer4.Storage/2.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gjG83sMxslbfpgZqN6fLApbrK4WAXfq81U9tXL85Bn9ze/SGlmM9S6Nbn/7djV0k6ZGuFct60Z6YLZTNjGS62Q==",
+      "path": "identityserver4.storage/2.5.1",
+      "hashPath": "identityserver4.storage.2.5.1.nupkg.sha512"
     },
     "MediatR/7.0.0": {
       "type": "package",

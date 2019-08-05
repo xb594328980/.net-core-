@@ -15,3 +15,4 @@ E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Domain.Core\obj\Debug\netstan
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Domain.Core\obj\Debug\netstandard2.0\Sansunt.Domain.Core.AssemblyInfo.cs
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Domain.Core\obj\Debug\netstandard2.0\Sansunt.Domain.Core.dll
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Domain.Core\obj\Debug\netstandard2.0\Sansunt.Domain.Core.pdb
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Domain.Core\obj\Debug\netstandard2.0\Sansunt.Domain.Core.csprojAssemblyReference.cache

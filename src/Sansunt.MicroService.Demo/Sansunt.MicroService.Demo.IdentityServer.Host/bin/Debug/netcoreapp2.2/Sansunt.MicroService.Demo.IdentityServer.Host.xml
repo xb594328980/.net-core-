@@ -89,5 +89,33 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="T:Sansunt.MicroService.Demo.IdentityServer.Host.Extensions.IdentityServerConfig">
+            <summary>
+            配置
+            </summary>
+        </member>
+        <member name="T:Sansunt.MicroService.Demo.IdentityServer.Host.Extensions.ProfileService">
+            <summary>
+            验证
+            </summary>
+        </member>
+        <member name="T:Sansunt.MicroService.Demo.IdentityServer.Host.Extensions.ResourceOwnerPasswordValidator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Sansunt.MicroService.Demo.IdentityServer.Host.Extensions.ResourceOwnerPasswordValidator.#ctor(Sansunt.MicroService.Demo.Application.Interfaces.IStaffAppService)">
+            <summary>
+            
+            </summary>
+            <param name="staffAppService"></param>
+        </member>
+        <member name="M:Sansunt.MicroService.Demo.IdentityServer.Host.Extensions.ResourceOwnerPasswordValidator.ValidateAsync(IdentityServer4.Validation.ResourceOwnerPasswordValidationContext)">
+            <summary>
+            验证
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

@@ -38,7 +38,7 @@ namespace Sansunt.MicroService.Demo.Infra.Data.Context
         /// 上下文类型
         /// </summary>
         private readonly ContextTypeEnum _contextType;
-        public MyContext(ContextTypeEnum contextType = ContextTypeEnum.Comman) : base()
+        public MyContext(ContextTypeEnum contextType) : base()
         {
             _loggerFactory = new LoggerFactory(new[] { new EfLogProvider() });
             // 从 appsetting.json 中获取配置信息
@@ -49,10 +49,15 @@ namespace Sansunt.MicroService.Demo.Infra.Data.Context
             _contextType = contextType;
         }
 
+        public MyContext() : this(ContextTypeEnum.Common)
+        {
+
+        }
+
 
 
         public DbSet<Staff> Staff { get; set; }
-        
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
 
@@ -72,7 +77,7 @@ namespace Sansunt.MicroService.Demo.Infra.Data.Context
                             connStr = slaveDbs.Value;
                         break;
                     }
-                case ContextTypeEnum.Comman:
+                case ContextTypeEnum.Common:
                 case ContextTypeEnum.Write:
                     {
                         connStr = _config.GetConnectionString("MasterDb");

@@ -8,6 +8,8 @@ using System.Text;
 using Sansunt.MicroService.Demo.Application.ResponseModels;
 using Sansunt.Infra.Tools.Maps;
 using Sansunt.MicroService.Demo.Domain.Interfaces;
+using Sansunt.MicroService.Demo.Application.ViewModels;
+using System.Threading.Tasks;
 
 namespace Sansunt.MicroService.Demo.Application.Services
 {
@@ -15,7 +17,7 @@ namespace Sansunt.MicroService.Demo.Application.Services
     /// 组织机构服务实现
     /// <remarks>create by xingbo 18/12/19</remarks>
     /// </summary>
-    public class StaffAppService : IUserAppService
+    public class StaffAppService : IStaffAppService
     {
         #region MyRegion
 
@@ -37,6 +39,13 @@ namespace Sansunt.MicroService.Demo.Application.Services
         public void Dispose()
         {
             _staffRepository.Dispose();
+        }
+
+        public Task<StaffViewModel> Get(Guid? id, string account)
+        {
+            var model = _staffRepository.Get(x =>
+                  (!id.HasValue || x.Id == id) && (string.IsNullOrWhiteSpace(account) || x.Account == account)).MapTo<StaffViewModel>();
+            return Task.FromResult(model);
         }
         #endregion
 

@@ -15,7 +15,7 @@ namespace Sansunt.MicroService.Demo.Infra.Mapper
         /// </summary>
         public DomainToViewModelMappingProfile()
         {
-            CreateMap<Staff, StaffViewModel>().ConstructUsing(x => new StaffViewModel(x.Id));
+            CreateMap<Staff, StaffViewModel>();
         }
     }
 }

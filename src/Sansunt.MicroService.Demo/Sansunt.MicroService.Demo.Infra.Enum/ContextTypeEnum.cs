@@ -25,6 +25,6 @@ namespace Sansunt.MicroService.Demo.Infra.Enum
         /// 通用
         /// </summary>
         [Description("通用")]
-        Comman = 3
+        Common = 3
     }
 }
