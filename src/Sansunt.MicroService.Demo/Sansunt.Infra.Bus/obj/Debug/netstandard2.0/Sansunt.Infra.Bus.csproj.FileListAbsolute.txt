@@ -15,10 +15,10 @@ E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Bus\bin\Debug\netstanda
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Bus\bin\Debug\netstandard2.0\Sansunt.Infra.Bus.pdb
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Bus\bin\Debug\netstandard2.0\Sansunt.Domain.Core.dll
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Bus\bin\Debug\netstandard2.0\Sansunt.Domain.Core.pdb
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Bus\obj\Debug\netstandard2.0\Sansunt.Infra.Bus.csprojAssemblyReference.cache
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Bus\obj\Debug\netstandard2.0\Sansunt.Infra.Bus.csproj.CoreCompileInputs.cache
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Bus\obj\Debug\netstandard2.0\Sansunt.Infra.Bus.AssemblyInfoInputs.cache
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Bus\obj\Debug\netstandard2.0\Sansunt.Infra.Bus.AssemblyInfo.cs
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Bus\obj\Debug\netstandard2.0\Sansunt.Infra.Bus.csproj.CopyComplete
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Bus\obj\Debug\netstandard2.0\Sansunt.Infra.Bus.dll
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Bus\obj\Debug\netstandard2.0\Sansunt.Infra.Bus.pdb
-E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Bus\obj\Debug\netstandard2.0\Sansunt.Infra.Bus.csprojAssemblyReference.cache

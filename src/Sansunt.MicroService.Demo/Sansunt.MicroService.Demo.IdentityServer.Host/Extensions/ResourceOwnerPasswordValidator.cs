@@ -29,7 +29,6 @@ namespace Sansunt.MicroService.Demo.IdentityServer.Host.Extensions
             _staffAppService = staffAppService;
         }
         #endregion
-
         /// <summary>
         /// 验证
         /// </summary>

@@ -15,10 +15,10 @@ E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Schedulers\bin\Debug\ne
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Schedulers\bin\Debug\netstandard2.0\Sansunt.Infra.Schedulers.pdb
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Schedulers\bin\Debug\netstandard2.0\Sansunt.Infra.Tools.dll
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Schedulers\bin\Debug\netstandard2.0\Sansunt.Infra.Tools.pdb
+E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Schedulers\obj\Debug\netstandard2.0\Sansunt.Infra.Schedulers.csprojAssemblyReference.cache
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Schedulers\obj\Debug\netstandard2.0\Sansunt.Infra.Schedulers.csproj.CoreCompileInputs.cache
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Schedulers\obj\Debug\netstandard2.0\Sansunt.Infra.Schedulers.AssemblyInfoInputs.cache
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Schedulers\obj\Debug\netstandard2.0\Sansunt.Infra.Schedulers.AssemblyInfo.cs
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Schedulers\obj\Debug\netstandard2.0\Sansunt.Infra.Schedulers.csproj.CopyComplete
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Schedulers\obj\Debug\netstandard2.0\Sansunt.Infra.Schedulers.dll
 E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Schedulers\obj\Debug\netstandard2.0\Sansunt.Infra.Schedulers.pdb
-E:\微服务\src\Sansunt.MicroService.Demo\Sansunt.Infra.Schedulers\obj\Debug\netstandard2.0\Sansunt.Infra.Schedulers.csprojAssemblyReference.cache

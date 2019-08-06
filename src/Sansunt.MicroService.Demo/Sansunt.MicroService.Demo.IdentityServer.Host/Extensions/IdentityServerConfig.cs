@@ -12,7 +12,7 @@ namespace Sansunt.MicroService.Demo.IdentityServer.Host.Extensions
     /// </summary>
     public class IdentityServerConfig
     {
-        public static IEnumerable<IdentityResource> GetIdentityResourceResources()
+        public static IEnumerable<IdentityResource> GetIdentityResources()
         {
             return new List<IdentityResource>
             {

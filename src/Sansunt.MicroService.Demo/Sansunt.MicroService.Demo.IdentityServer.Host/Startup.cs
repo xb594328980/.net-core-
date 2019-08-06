@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using EasyCaching.Core.Configurations;
@@ -13,6 +14,7 @@ using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -107,11 +109,13 @@ namespace Sansunt.MicroService.Demo.IdentityServer.Host
             });
             #endregion
             #region IdentityServer4
+            var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
             services.AddTransient<IProfileService, ProfileService>();
             services.AddTransient<IResourceOwnerPasswordValidator, ResourceOwnerPasswordValidator>();
+
             services.AddIdentityServer()
                 .AddSigningCredential(new X509Certificate2("./certificate/cas.clientservice.pfx", "12345678"))
-                .AddInMemoryIdentityResources(IdentityServerConfig.GetIdentityResourceResources())
+                .AddInMemoryIdentityResources(IdentityServerConfig.GetIdentityResources())
                 .AddInMemoryApiResources(IdentityServerConfig.GetApiResources())
                 .AddInMemoryClients(IdentityServerConfig.GetClients());
             #endregion
@@ -148,7 +152,9 @@ namespace Sansunt.MicroService.Demo.IdentityServer.Host
             app.UseIdentityServer();
             app.UseMvc(routes =>
             {
-                //routes.MapRoute("default", "{controller}/{action}", new { controller = "Values", action = "Get" });
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Home}/{action=Index}/{id?}");
             });
             app.UseAuthentication();//启用授权
             app.RegisterConsul(lifetime, _healthService, _consulService);
@@ -174,5 +180,6 @@ namespace Sansunt.MicroService.Demo.IdentityServer.Host
             }
             #endregion Swagger
         }
+
     }
 }
