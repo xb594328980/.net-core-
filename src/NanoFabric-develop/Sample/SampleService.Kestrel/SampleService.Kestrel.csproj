@@ -9,7 +9,7 @@
     <AssemblyName>SampleService.Kestrel</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.15" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.5" />
     <PackageReference Include="SkyWalking.AspNetCore" Version="0.3.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="3.0.0" />
